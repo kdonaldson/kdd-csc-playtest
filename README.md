@@ -13,7 +13,7 @@ Then open the URL Vite prints (usually `http://localhost:5173`).
 
 ## Deploy to GitHub Pages
 
-### Option A — GitHub Actions (recommended, included)
+### GitHub Actions (recommended, included)
 
 This repo already includes a workflow at `.github/workflows/deploy.yml` that builds the app and deploys it automatically on every push to `main`.
 
@@ -35,7 +35,7 @@ This repo already includes a workflow at `.github/workflows/deploy.yml` that bui
 
 The build uses a relative asset base (`base: "./"` in `vite.config.js`), so it works at any path automatically — no config changes needed for your specific repo name.
 
-### Option B — Manual build, no Actions
+### Manual build, no Actions
 
 If you'd rather not use Actions:
 
